@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Clima</title>
+</head>
+<body>
+    
+    <h1 class="c-white">Clima</h1>
+
+    <div class="buscar">
+        <input type="text" class="input-busca" placeholder="Digite uma localização">
+        <i class="fa-solid fa-xmark limpar-input"></i>
+        <button class="botao-busca">Buscar</button>
+    </div>
+
+    <div class="aviso d-none"></div>
+
+    <div class="container-dados d-none">
+
+        <h2 class="titulo-dados c-white"></h2>
+
+        <div class="container-temperatura-vento">
+
+            <div class="temperatura">
+                <div class="titulo-temp">Temperatura</div>
+                <div class="dados-temp c-white">...</div>
+                <img src="" class="imagem-temp" alt="Imagem do tempo">
+            </div>
+
+            <div class="vento">
+                <div class="titulo-vento">Vento</div>
+                <div class="dados-vento c-white"></div>
+                <div class="vento-area">
+                    <div class="vento-ponteiro">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+
+    <script src="./public/script.js"></script>
+
+</body>
+</html>
